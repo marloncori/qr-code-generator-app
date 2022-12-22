@@ -1,0 +1,12 @@
+
+apiVersion: v1
+kind: Pod
+metada:
+  name: qr-code-ng-api
+spec:
+  containers:
+  - name: qr-code-ng-api
+    image: docker_qr_code_gen:latest
+    resources:
+      limits:
+        memory: "200Mi"

@@ -1,0 +1,9 @@
+
+apiVersion: v1
+kind: Pod
+metada:
+  name: qr-code-generator-api
+spec:
+  containers:
+  - name: qr-code-generator-api
+    image: docker_qr_code_gen:latest

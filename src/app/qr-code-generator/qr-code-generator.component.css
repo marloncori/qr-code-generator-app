@@ -1,0 +1,101 @@
+
+bg-gray-800 {
+    background-color: #2d3748;
+  }
+  
+  .bg-opacity-25 {
+    background-color: rgba(45, 55, 72, 0.25);
+  }
+  
+  .min-h-screen {
+    min-height: 100vh;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .bg-white {
+    background-color: #ffffff;
+  }
+  
+  .rounded-lg {
+    border-radius: 0.5rem;
+  }
+  
+  .shadow-lg {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+  
+  .p-6 {
+    padding: 1.5rem;
+  }
+  
+  .text-3xl {
+    font-size: 1.875rem;
+  }
+  
+  .font-bold {
+    font-weight: 700;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-gray-800 {
+    color: #2d3748;
+  }
+  
+  .mb-6 {
+    margin-bottom: 1.5rem;
+  }
+  
+  input[type="text"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    outline: none;
+    background-color: #f7fafc;
+  }
+  
+  input[type="text"]::placeholder {
+    color: #cbd5e0;
+  }
+  
+  button[type="submit"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #2d3748;
+    color: #ffffff;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #1a202c;
+  }
+  
+  img {
+    max-width: 400px;
+    height: auto;
+  }
+  
+ .text-gray-600 {
+    color: #718096;
+  }
+  
+  .mt-2 {
+    margin-top: 0.5rem;
+  }
